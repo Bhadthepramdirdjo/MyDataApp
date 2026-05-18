@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
 
-        // Security check: If not logged in, go back to Login
         if (!sharedPreferences.getBoolean("isLoggedIn", false)) {
             startActivity(new Intent(this, LoginActivity.class));
             finish();

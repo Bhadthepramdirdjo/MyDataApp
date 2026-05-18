@@ -33,7 +33,6 @@ public class LoginActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
 
-        // Check if already logged in
         if (sharedPreferences.getBoolean("isLoggedIn", false)) {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
