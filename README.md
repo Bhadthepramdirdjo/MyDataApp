@@ -2,6 +2,10 @@
 
 MyDataApp adalah aplikasi Android sederhana yang dibuat untuk memenuhi tugas UTS Praktikum Pemrograman Mobile.
 
+- Bhadriko Theo Pramudya
+- IF 9
+- 10123375
+- 
 ## Fitur Aplikasi
 
 ### Login Screen
